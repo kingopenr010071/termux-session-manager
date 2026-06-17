@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="6dip">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/session_title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/session_background_selected"
+        android:ellipsize="marquee"
+        android:gravity="start|center_vertical"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/btn_close_session"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:contentDescription="关闭 Session"
+        android:scaleType="centerInside" />
+
+</LinearLayout>
