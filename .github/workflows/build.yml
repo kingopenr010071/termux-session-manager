@@ -38,7 +38,7 @@ jobs:
         ls -la app/build/outputs/apk/debug/ 2>/dev/null || true
 
     - name: Upload APK
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: termux-session-manager
         path: app/build/outputs/apk/debug/*.apk
