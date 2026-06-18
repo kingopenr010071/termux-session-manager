@@ -1,0 +1,7 @@
+app/src/main/cpp/bootstrap-*.zip
+app/src/main/cpp/bootstrap-*.zip.aria2
+app/build/
+.gradle/
+build/
+*.iml
+local.properties
